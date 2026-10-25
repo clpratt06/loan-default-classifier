@@ -7,25 +7,23 @@ This project is built using the [Loan Default](https://www.kaggle.com/datasets/y
 
 To access the Jupyter notebook, open the ipynb file.
 
-Libraries Used: pandas, NumPy, scikit-learn, statsmodels, matplotlib
+Libraries Used: pandas, scikit-learn, matplotlib
 
 ### Overview
 
-Built a weighted logistic regression model to predict borrower loan default risk using financial and loan-level characteristics. The project focuses on identifying high-risk borrowers and evaluating classification tradeoffs in an imbalanced dataset.
+Built a balanced random forest classifier to predict borrower loan default risk on a portfolio of outstanding loans. The project focuses on identifying high-risk loans and evaluating classification tradeoffs in an imbalanced dataset.
 
 ### Approach
 
-* Cleaned and imputed financial features (credit score, LTV, DTI, interest rate)  
-* Removed extreme outliers  
-* Stratified train-test split  
-* Implemented logistic regression with class weighting  
-* Evaluated using confusion matrix, precision, recall, and F1-score  
+Cleaned and imputed financial features (credit score, LTV, DTI, interest rate)
+Removed extreme outliers
+Stratified train-test split
+Trained balanced random forest classifier
+Evaluated using confusion matrix, precision, recall, and F1-score
 
 ### Results
 
-Recall: 0.59  
-Precision: 0.28  
-Accuracy: 0.53  
-
-
+Recall: 0.93
+Precision: 0.77
+Accuracy: 0.91
 
