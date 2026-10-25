@@ -1,5 +1,4 @@
-# Loan Default Risk Modeling
-
+# Loan Defaults Random Forest Classifier
 **Carson Pratt**
 UC Berkeley — B.A. Data Science & Economics
 
@@ -23,6 +22,6 @@ Built a balanced random forest classifier to predict borrower loan default risk 
 
 ### Results
 
-* **Recall:** 0.93
-* **Precision:** 0.77
-* **Accuracy:** 0.91
+* **Recall:** 0.59
+* **Precision:** 0.69
+* **Accuracy:** 0.83
