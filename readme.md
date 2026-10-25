@@ -11,7 +11,7 @@ To access the Jupyter notebook, open the `loan_default.ipynb` file.
 
 ### Overview
 
-Built a balanced random forest classifier to predict borrower loan default risk on a portfolio of outstanding loans. The project focuses on identifying high-risk loans and evaluating classification tradeoffs in an imbalanced dataset, serving as an early-warning diagnostic tool to directly support institutional loss provisioning.
+Built a balanced random forest classifier to predict borrower loan default risk on a portfolio of outstanding loans, which would be useful in a loss provisioning context. The project focuses on identifying high-risk loans and evaluating classification tradeoffs in an imbalanced dataset.
 
 ### Approach
 
